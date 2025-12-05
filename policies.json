@@ -1,15 +1,20 @@
 {
   "ExtensionInstallForcelist": [
-    "blaaajhemilngeeffpbfkdjjoefldkok;https://clients2.google.com/service/update2/crx"
+    "blaaajhemilngeeffpbfkdjjoefldkok;https://clients2.google.com/service/update2/crx",
+    "cjpalhdlnbpafiamejdnhcphjbkeiagm;https://clients2.google.com/service/update2/crx"
   ],
 
   "ExtensionSettings": {
     "blaaajhemilngeeffpbfkdjjoefldkok": {
       "installation_mode": "force_installed",
       "update_url": "https://clients2.google.com/service/update2/crx"
+    },
+    "cjpalhdlnbpafiamejdnhcphjbkeiagm": {
+      "installation_mode": "force_installed",
+      "update_url": "https://clients2.google.com/service/update2/crx"
     }
   },
-
+  
   "URLBlocklist": [
     "https://example.com/account/*",
     "https://example.com/settings/*",
