@@ -1,0 +1,25 @@
+{
+  "ExtensionInstallForcelist": [
+    "eiimnmioipafcokbfikbljfdeojpcgbh;https://clients2.google.com/service/update2/crx"
+  ],
+
+  "ExtensionSettings": {
+    "eiimnmioipafcokbfikbljfdeojpcgbh": {
+      "installation_mode": "force_installed",
+      "update_url": "https://clients2.google.com/service/update2/crx"
+    }
+  },
+
+  "URLBlocklist": [
+    "https://example.com/account/*",
+    "https://example.com/settings/*",
+    "https://example.com/billing/*"
+  ],
+
+  "URLAllowlist": [
+    "https://example.com/*"
+  ],
+
+  "DeveloperToolsAvailability": 2,
+  "BlockThirdPartyCookies": true
+}
