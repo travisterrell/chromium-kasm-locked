@@ -1,30 +1,28 @@
 {
-  "ExtensionInstallForcelist": [
-    "blaaajhemilngeeffpbfkdjjoefldkok;https://clients2.google.com/service/update2/crx",
-    "ddkjiahejlhfcafbddmgiahcphecmpfh;https://clients2.google.com/service/update2/crx",
-    "fhbjgbiflinjbdggehcddcbncdddomop;https://clients2.google.com/service/update2/crx"
-  ],
-
-  "ExtensionSettings": {
-    "*": {
-      "installation_mode": "blocked"
+    "ExtensionInstallForcelist": [
+        "blaaajhemilngeeffpbfkdjjoefldkok;https://clients2.google.com/service/update2/crx",
+        "ddkjiahejlhfcafbddmgiahcphecmpfh;https://clients2.google.com/service/update2/crx",
+        "kohfgcgbkjodfcfkcackpagifgbcmimk;https://clients2.google.com/service/update2/crx"
+    ],
+    "ExtensionSettings": {
+        "*": {
+            "installation_mode": "blocked"
+        },
+        "blaaajhemilngeeffpbfkdjjoefldkok": {
+            "installation_mode": "force_installed",
+            "update_url": "https://clients2.google.com/service/update2/crx"
+        },
+        "ddkjiahejlhfcafbddmgiahcphecmpfh": {
+            "installation_mode": "force_installed",
+            "update_url": "https://clients2.google.com/service/update2/crx"
+        },
+        "kohfgcgbkjodfcfkcackpagifgbcmimk": {
+            "installation_mode": "force_installed",
+            "update_url": "https://clients2.google.com/service/update2/crx"
+        }
     },
-    "blaaajhemilngeeffpbfkdjjoefldkok": {
-      "installation_mode": "force_installed",
-      "update_url": "https://clients2.google.com/service/update2/crx"
-    },
-    "ddkjiahejlhfcafbddmgiahcphecmpfh": {
-      "installation_mode": "force_installed",
-      "update_url": "https://clients2.google.com/service/update2/crx"
-    },
-    "fhbjgbiflinjbdggehcddcbncdddomop": {
-      "installation_mode": "force_installed",
-      "update_url": "https://clients2.google.com/service/update2/crx"
-    }
-  },
 
-
-  "DeveloperToolsAvailability": 2,
-  "BlockExternalExtensions": true,
-  "BlockThirdPartyCookies": true
+    "DeveloperToolsAvailability": 2,
+    "BlockExternalExtensions": true,
+    "BlockThirdPartyCookies": true
 }
