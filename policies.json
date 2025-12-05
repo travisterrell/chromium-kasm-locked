@@ -23,6 +23,22 @@
     }
   },
 
+  "URLBlocklist": [
+    "chrome://extensions/*",
+    "chrome-extension://*/*",
+    "chrome://flags/*",
+    "chrome://settings/*",
+    "chrome://settings-reset/*",
+    "chrome://management/*",
+    "chrome://policy/*",
+    "chrome://version/*",
+    "chrome://system/*",
+    "chrome://components/*"
+  ],
+
+  "URLAllowlist": [
+    "chrome://newtab/*"
+  ],
 
   "DeveloperToolsAvailability": 2,
   "BlockExternalExtensions": true,
