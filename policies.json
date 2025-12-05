@@ -1,7 +1,8 @@
 {
   "ExtensionInstallForcelist": [
     "blaaajhemilngeeffpbfkdjjoefldkok;https://clients2.google.com/service/update2/crx",
-    "ddkjiahejlhfcafbddmgiahcphecmpfh;https://clients2.google.com/service/update2/crx"
+    "ddkjiahejlhfcafbddmgiahcphecmpfh;https://clients2.google.com/service/update2/crx",
+    "fhbjgbiflinjbdggehcddcbncdddomop;https://clients2.google.com/service/update2/crx"
   ],
 
   "ExtensionSettings": {
@@ -15,25 +16,13 @@
     "ddkjiahejlhfcafbddmgiahcphecmpfh": {
       "installation_mode": "force_installed",
       "update_url": "https://clients2.google.com/service/update2/crx"
+    },
+    "fhbjgbiflinjbdggehcddcbncdddomop": {
+      "installation_mode": "force_installed",
+      "update_url": "https://clients2.google.com/service/update2/crx"
     }
   },
 
-  "URLBlocklist": [
-    "chrome://extensions/*",
-    "chrome-extension://*/*",
-    "chrome://flags/*",
-    "chrome://settings/*",
-    "chrome://settings-reset/*",
-    "chrome://management/*",
-    "chrome://policy/*",
-    "chrome://version/*",
-    "chrome://system/*",
-    "chrome://components/*"
-  ],
-
-  "URLAllowlist": [
-    "chrome://newtab/*"
-  ],
 
   "DeveloperToolsAvailability": 2,
   "BlockExternalExtensions": true,
